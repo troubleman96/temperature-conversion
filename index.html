@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            font-size: large;
+        }
+        #submitbtn{
+           
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    
+    <label id="Temperatureconv">Enter your Temperature : <br>
+        <input type="text" id="tempbox"> </label> <br>
+        <label >Convert to :</label> <br>
+        <label>
+          Celsius <input type="radio" name="unit" id="cbtn">
+          </label>
+      <br>
+          <label>
+          Fahrenheit  <input type="radio" name="unit" id="fbtn" >  
+          </label> <br>
+          <button id="submitbtn" type="submit">Submit</button><br>
+          <label id="templabel"></label>
+        
+        <script src="index.js"></script>
+</body>
+</html>
